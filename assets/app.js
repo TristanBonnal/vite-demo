@@ -1,2 +1,4 @@
-import './js/app.js';
+import './js/hello.js';
+
+// import.meta.glob('./img/*');
 
