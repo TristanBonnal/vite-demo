@@ -19,5 +19,9 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, blanditiis distinctio enim error necessitatibus totam vero! Deleniti esse minus reprehenderit tempora voluptatum. A doloremque, explicabo labore maiores minus non tenetur.
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, blanditiis distinctio enim error necessitatibus totam vero! Deleniti esse minus reprehenderit tempora voluptatum. A doloremque, explicabo labore maiores minus non tenetur.
     </p>
+
+    {% for i in 1..3 %}
+        <img src="{{ asset('assets/img/placeholder' ~ i ~ '.svg', 'vite') }}" alt="">
+    {% endfor %}
 </div>
 {% endblock %}
